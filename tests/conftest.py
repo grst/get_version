@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 from pathlib import Path
 from tempfile import TemporaryDirectory
 from typing import Union, Callable, Dict, List
