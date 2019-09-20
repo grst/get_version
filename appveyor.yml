@@ -5,8 +5,5 @@ environment:
 install:
   - "%PYTHON%\\python.exe -m pip install future-fstrings flit coveralls"
   - "%PYTHON%\\python.exe -m flit install --deps develop"
-
-test_script:
-  - "%PYTHON%\\python.exe -m pytest"
   
 build: off
