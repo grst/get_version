@@ -1,0 +1,10 @@
+environment:
+  matrix:
+    - PYTHON: "C:\\Python36-x64"
+
+install:
+  - "%PYTHON%\\python.exe -m pip install wheel flit"
+  - "%PYTHON%\\python.exe -m pip install . -vv"
+
+test_script:
+  - "build.cmd %PYTHON%\\python.exe setup.py test"
